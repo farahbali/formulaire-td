@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Formulaire</title>
+</head>
+<body>
+    <h1 > Inscription des Etudiants</h1>
+    <fieldset id="fieldset">
+    <legend id="legend"> Information personnelles</legend>
+        <form>
+        <label for="nom"> Nom </label>
+        <input type="text"  id="nom"> <br><br>
+        <label for="prenom"> Prénom </label>
+        <input type="text"  id="prenom"> <br><br>
+        <label for="date_N"> Date de Naissance </label>
+        <input type="date"  id="date_N"><br><br>
+        <label for="lieu"> Lieu de Naissance </label>
+        <input type="text"  id="lieu"><br><br>
+        <label for="sexe"> Sexe:</label>
+        <input type="radio" value="Féminin" name="Féminin" id="sexe" >Féminin
+        <input type="radio" value="Masculin" id="sexe" name="Masculin ">Masculin<br><br>
+        <label for="Nationalité"> Nationalité </label>
+        <input type="text"  id="Nationalité" value="Tunisienne"><br><br>
+        <label for="e_mail"> E-mail </label>
+        <input type="text"  id="e_mail"><br><br>
+        <label for="numTell"> Télephone </label>
+        <input type="text" id="numTell"><br><br>
+        <label for="liste"> Niveau</label>
+        <select id="liste" name="liste">
+          <option > 1ére anné</option>
+          <option> 2éme anné</option>
+          <option > 3éme anné</option>
+        </select> <br><br>
+       <input type="submit" id="Envoyer" value="Envoyer">
+       <input type="reset" id="Annuler" value="Annuler">
+        </form>    
+        </fieldset> 
+    </body>
+</html>
